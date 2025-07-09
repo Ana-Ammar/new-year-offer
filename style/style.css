@@ -14,13 +14,13 @@
   font-style: normal;
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 body{
-    max-width: 1600px;
-    margin: 0 auto;
+    /* max-width: 1140px;
+    margin: 0 auto; */
 }
 
     /* Banner/Head styles */
