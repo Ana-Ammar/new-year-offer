@@ -79,5 +79,131 @@ body{
 
     /* Section two */
 .section-two{
-    
+    background-image: url(clbrt.png);
+    width: 1320px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px 140px 120px;
+    border-radius: 16px;
+}
+
+.party-container{
+    display: flex;
+    gap: 39px;
+    align-items: center;
+    justify-content: center;
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0));
+    border-radius: 16px;
+
+}
+.party-container-para{
+    margin-left: 126px; 
+}
+.party-container-img{
+    margin-right: 138px;
+    /* background: radial-gradient(ellipse at center, ); */
+}
+.sec-two-welcome{
+    font-size: 64px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.sec-two-para{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 24px 0px 32px 0px;
+}
+.sec-two-join{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+   /* section three styles */
+.section-three{
+    /* position: relative; */
+    margin: 50px 140px 120px;
+}
+.sec-three-box{
+    position: absolute;
+    /* border: none; */
+    border-radius: 16px;
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0));
+    opacity: 10%;
+    z-index: 1;
+}
+.sec-three-text{
+    /* position: static; */
+    z-index: 2;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.5em;
+    padding-top: 100px;
+}
+.sec-three-red{
+    color: #FF0000;
+}
+.sec-three-button{
+    width: 167px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    margin-top: 48px;
+    margin-bottom: 110px;
+}
+
+    /* section four styles */
+.sec-four{
+    margin: 50px 140px 120px;
+}
+.sec-four-container{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.sec-four-offer{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.sec-four-coming{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 16px 0px 22px 0px;
+}
+.sec-four-para{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+.sec-four-img{
+    border: 15px solid #FF0000;
+    width: 364.84px;
+    height: 364.84px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.sec-four-h{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.sec-four-text{
+    margin: 16px 0px 43px 0px;
+}
+.sec-four-second-text{
+    margin-left: 50px;
 }
