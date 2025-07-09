@@ -26,6 +26,7 @@ body{
     /* Banner/Head styles */
 .banner{
     background-image: url(/style/banner.png);
+    width: 1320px;
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
