@@ -26,7 +26,7 @@ body{
 
     /* Banner/Head styles */
 .banner{
-    background-image: url(banner.png);
+    background-image: url('banner.png');
     width: 1320px;
     height: 600px;
     background-size: cover;
@@ -80,7 +80,7 @@ body{
 
     /* Section two */
 .section-two{
-    background-image: url(clbrt.png);
+    background-image: url('clbrt.png');
     width: 1320px;
     height: 600px;
     background-size: cover;
@@ -237,7 +237,7 @@ body{
     align-items: center;
     gap: 240px;
     position: relative;
-    background-image: url(rectangle.png);
+    background-image: url('rectangle.png');
     /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: bottom;
