@@ -237,7 +237,7 @@ body{
     align-items: center;
     gap: 240px;
     position: relative;
-    background-image: url(/style/rectangle.png);
+    background-image: url(rectangle.png);
     /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: bottom;
