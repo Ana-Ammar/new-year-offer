@@ -3,14 +3,14 @@
 .merriweather-font-one {
   font-family: "Merriweather", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 600;
   font-style: normal;
   font-variation-settings:"wdth" 100;
 }
 .inter-font-two {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -22,6 +22,7 @@ body{
     max-width: 1600px;
     margin: 0 auto;
 }
+
 
     /* Banner/Head styles */
 .banner{
@@ -206,4 +207,156 @@ body{
 }
 .sec-four-second-text{
     margin-left: 50px;
+}
+
+    /* Section five styles */
+.sec-five-first-dv{
+    text-align: center;
+}
+
+.sec-five-1st-line{
+    font-size: 24px;
+    font-weight: 500;
+    color:#070211;
+}
+.sec-five-h{
+    font-size: 72px;
+    font-weight: bold;
+    color: #070211;
+    margin: 16px 0px 28px 0px;
+}
+.sec-five-first-para{
+    font-size: 20px;
+    font-weight: 500;
+    color: #070211;
+    opacity: 60%;
+}
+.sec-five-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 240px;
+    position: relative;
+    background-image: url(/style/rectangle.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 64px;
+}
+.sec-five-img-one{
+    margin: 0px 40px 279px 0px;
+}
+    /* Section six */
+.sec-six{
+    margin: 120px 140px 120px;
+}
+
+.sec-six-p1{
+    font-size: 24px;
+    font-weight: 500px;
+    color: #FF0000;
+}
+.sec-six-h{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin:16px 0px 22px 0px;
+}    
+.sec-six-p2{
+    font-size: 20px;
+    color: #070211;
+    opacity: 60%;
+    padding-right: 564px;
+}
+.sec-six-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+    /* Section Seven */
+
+.sec-seven{
+    margin: 120px 140px
+}
+.sec-seven-dv{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    background-color:rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 536px;
+    padding-top: 80px;
+    border-radius: 16px;
+}
+.sec-seven-h{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin: 40px 0px 134px 0px;
+}
+.sec-seven-input{
+    width: 438px;
+    height: 72px;
+    color: rgba(7, 2, 17, 0.3);
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 30px;
+    border: none;
+}
+.sec-seven-btn{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+}
+.inp-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+   /* Footer */
+
+.footer{
+    width: 1600px;
+    height: 350px;
+    background-color: rgba(7, 2, 17, 1);
+    color: #FFFFFF;
+    font-size: 24px;
+    padding: 120px 0px 120px 0px;
+}
+.margin{
+    margin:0px 140px 0px 140px;
+}
+.footer-dv-text1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 130px;
+}
+.footer-dv-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.footer-dv-text2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    margin: 50px 0px 50px 0px;
+    background-color: rgba(255, 255, 255, 0.15);
+    opacity: 15%;
+}
+.icon-img{
+    display: inline-block;
+    vertical-align: middle;
 }
